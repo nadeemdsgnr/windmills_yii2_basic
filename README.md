@@ -1,5 +1,9 @@
+<h1 align="center">Build a User Management System</h1>
+<b>Description:</b>
+You are tasked with building a user management system using PHP. The system should allow administrators to manage users, including creating, updating, and deleting user accounts. Regular users should be able to view and update their own profiles.
+
 <p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
+    <a target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
     <h1 align="center">Yii 2 Basic Project Template</h1>
