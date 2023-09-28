@@ -7,38 +7,49 @@ You are tasked with building a user management system using PHP. The system shou
 Implement at least two user roles: "Administrator" and "User".
 Administrators should have the ability to manage all user accounts (CRUD operations).
 Users should only be able to view and update their own profile information.
+</br>
 <b>Authentication and Authorization:</b>
 Implement a secure authentication mechanism. Users should be able to log in with their email and password.
 Use sessions or tokens to manage user sessions.
 Ensure that only authorized users can access their respective functionalities.
+</br>
 <b>User Profile:</b>
 Users should have a profile page displaying their information (name, email, etc.).
 Users should be able to update their own profile information.
+</br>
 <b>User Listing:</b>
 Administrators should have access to a user listing page showing all users.
 Implement pagination for the user listing to handle a potentially large number of users.
+</br>
 <b>User Creation and Editing:</b>
 Administrators should be able to create new user accounts, providing necessary information such as name, email, and role.
 Editing of user information should be available to administrators.
+</br>
 <b>User Deletion:</b>
 Administrators should be able to delete user accounts.
 Implement a confirmation mechanism to prevent accidental deletions.
+</br>
 <b>Security Considerations:</b>
 Sanitize and validate input to prevent SQL injection and XSS attacks.
 Use password hashing for user authentication.
 Implement CSRF protection to prevent cross-site request forgery attacks.
+</br>
 <b>UI/UX:</b>
 Design a user-friendly interface using HTML/CSS.
 Ensure responsive design to support different devices.
+</br>
 <b>Code Quality and Best Practices:</b>
 Follow SOLID principles and MVC architecture (or other appropriate architectural pattern).
 Write clean, well-documented, and maintainable code.
 Implement error handling and logging for better debugging.
+</br>
 <b>Testing:</b>
 Write unit tests for critical components of the application.
 Ensure proper test coverage.
+</br>
 <b>Submission:</b>
 You are required to provide the source code along with any necessary setup instructions. Additionally, provide a brief document explaining your design decisions, technologies used, and any challenges faced during development.
+</br>
 
 <p align="center">
     <a target="_blank">
