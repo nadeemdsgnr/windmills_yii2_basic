@@ -11,6 +11,7 @@ Administrators should have the ability to manage all user accounts (CRUD operati
 </br>
 Users should only be able to view and update their own profile information.
 </br>
+</br>
 <b>Authentication and Authorization:</b>
 </br>
 Implement a secure authentication mechanism. Users should be able to log in with their email and password.
@@ -19,52 +20,68 @@ Use sessions or tokens to manage user sessions.
 </br>
 Ensure that only authorized users can access their respective functionalities.
 </br>
+</br>
 <b>User Profile:</b>
+</br>
 Users should have a profile page displaying their information (name, email, etc.).
 </br>
 Users should be able to update their own profile information.
 </br>
 </br>
 <b>User Listing:</b>
+</br>
 Administrators should have access to a user listing page showing all users.
 </br>
 Implement pagination for the user listing to handle a potentially large number of users.
 </br>
 </br>
 <b>User Creation and Editing:</b>
+</br>
 Administrators should be able to create new user accounts, providing necessary information such as name, email, and role.
 </br>
 Editing of user information should be available to administrators.
 </br>
+</br>
 <b>User Deletion:</b>
+</br>
 Administrators should be able to delete user accounts.
 </br>
 Implement a confirmation mechanism to prevent accidental deletions.
 </br>
+</br>
 <b>Security Considerations:</b>
+</br>
 Sanitize and validate input to prevent SQL injection and XSS attacks.
 </br>
 Use password hashing for user authentication.
 </br>
 Implement CSRF protection to prevent cross-site request forgery attacks.
 </br>
+</br>
 <b>UI/UX:</b>
+</br>
 Design a user-friendly interface using HTML/CSS.
 </br>
 Ensure responsive design to support different devices.
 </br>
+</br>
 <b>Code Quality and Best Practices:</b>
+</br>
 Follow SOLID principles and MVC architecture (or other appropriate architectural pattern).
 </br>
 Write clean, well-documented, and maintainable code.
 </br>
 Implement error handling and logging for better debugging.
 </br>
+</br>
 <b>Testing:</b>
+</br>
 Write unit tests for critical components of the application.
 </br>
 Ensure proper test coverage.
 </br>
+</br>
+<b>Submission:</b>
 <b>Submission:</b>
 You are required to provide the source code along with any necessary setup instructions. Additionally, provide a brief document explaining your design decisions, technologies used, and any challenges faced during development.
 </br>
