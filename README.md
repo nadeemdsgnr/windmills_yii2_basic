@@ -4,47 +4,65 @@ You are tasked with building a user management system using PHP. The system shou
 
 <h3>Requirements:</h3>
 <b>User Roles and Permissions:</b>
+</br>
 Implement at least two user roles: "Administrator" and "User".
+</br>
 Administrators should have the ability to manage all user accounts (CRUD operations).
+</br>
 Users should only be able to view and update their own profile information.
 </br>
 <b>Authentication and Authorization:</b>
+</br>
 Implement a secure authentication mechanism. Users should be able to log in with their email and password.
+</br>
 Use sessions or tokens to manage user sessions.
+</br>
 Ensure that only authorized users can access their respective functionalities.
 </br>
 <b>User Profile:</b>
 Users should have a profile page displaying their information (name, email, etc.).
+</br>
 Users should be able to update their own profile information.
+</br>
 </br>
 <b>User Listing:</b>
 Administrators should have access to a user listing page showing all users.
+</br>
 Implement pagination for the user listing to handle a potentially large number of users.
+</br>
 </br>
 <b>User Creation and Editing:</b>
 Administrators should be able to create new user accounts, providing necessary information such as name, email, and role.
+</br>
 Editing of user information should be available to administrators.
 </br>
 <b>User Deletion:</b>
 Administrators should be able to delete user accounts.
+</br>
 Implement a confirmation mechanism to prevent accidental deletions.
 </br>
 <b>Security Considerations:</b>
 Sanitize and validate input to prevent SQL injection and XSS attacks.
+</br>
 Use password hashing for user authentication.
+</br>
 Implement CSRF protection to prevent cross-site request forgery attacks.
 </br>
 <b>UI/UX:</b>
 Design a user-friendly interface using HTML/CSS.
+</br>
 Ensure responsive design to support different devices.
 </br>
 <b>Code Quality and Best Practices:</b>
 Follow SOLID principles and MVC architecture (or other appropriate architectural pattern).
+</br>
 Write clean, well-documented, and maintainable code.
+</br>
 Implement error handling and logging for better debugging.
 </br>
 <b>Testing:</b>
 Write unit tests for critical components of the application.
+</br>
 Ensure proper test coverage.
 </br>
 <b>Submission:</b>
