@@ -2,6 +2,44 @@
 <b>Description:</b>
 You are tasked with building a user management system using PHP. The system should allow administrators to manage users, including creating, updating, and deleting user accounts. Regular users should be able to view and update their own profiles.
 
+<h3>Requirements:</h3>
+<b>User Roles and Permissions:</b>
+Implement at least two user roles: "Administrator" and "User".
+Administrators should have the ability to manage all user accounts (CRUD operations).
+Users should only be able to view and update their own profile information.
+<b>Authentication and Authorization:</b>
+Implement a secure authentication mechanism. Users should be able to log in with their email and password.
+Use sessions or tokens to manage user sessions.
+Ensure that only authorized users can access their respective functionalities.
+<b>User Profile:</b>
+Users should have a profile page displaying their information (name, email, etc.).
+Users should be able to update their own profile information.
+<b>User Listing:</b>
+Administrators should have access to a user listing page showing all users.
+Implement pagination for the user listing to handle a potentially large number of users.
+<b>User Creation and Editing:</b>
+Administrators should be able to create new user accounts, providing necessary information such as name, email, and role.
+Editing of user information should be available to administrators.
+<b>User Deletion:</b>
+Administrators should be able to delete user accounts.
+Implement a confirmation mechanism to prevent accidental deletions.
+<b>Security Considerations:</b>
+Sanitize and validate input to prevent SQL injection and XSS attacks.
+Use password hashing for user authentication.
+Implement CSRF protection to prevent cross-site request forgery attacks.
+<b>UI/UX:</b>
+Design a user-friendly interface using HTML/CSS.
+Ensure responsive design to support different devices.
+<b>Code Quality and Best Practices:</b>
+Follow SOLID principles and MVC architecture (or other appropriate architectural pattern).
+Write clean, well-documented, and maintainable code.
+Implement error handling and logging for better debugging.
+<b>Testing:</b>
+Write unit tests for critical components of the application.
+Ensure proper test coverage.
+<b>Submission:</b>
+You are required to provide the source code along with any necessary setup instructions. Additionally, provide a brief document explaining your design decisions, technologies used, and any challenges faced during development.
+
 <p align="center">
     <a target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
